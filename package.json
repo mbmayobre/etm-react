@@ -45,8 +45,10 @@
     ]
   },
   "devDependencies": {
+    "@typescript-eslint/parser": "^5.62.0",
     "autoprefixer": "^10.4.16",
     "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-tailwindcss": "^3.13.0",
     "husky": "^8.0.3",
     "lint-staged": "^15.2.0",
     "postcss": "^8.4.31",

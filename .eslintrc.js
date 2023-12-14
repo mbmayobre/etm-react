@@ -8,7 +8,7 @@ module.exports = {
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
-    "some-other-config-you-use",
+    "plugin:tailwindcss/recommended",
     "prettier",
   ],
   overrides: [
@@ -16,7 +16,7 @@ module.exports = {
       env: {
         node: true,
       },
-      files: [".eslintrc.{js,cjs}"],
+      files: [".eslintrc.{js,cjs}", "*.ts", "*.tsx", "*.js"],
       parserOptions: {
         sourceType: "script",
       },

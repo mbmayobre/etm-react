@@ -1,11 +1,9 @@
-import { FunctionComponent } from "react";
+import React, { FunctionComponent } from "react";
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
-type HomeProps = {};
-
-const Home: FunctionComponent<HomeProps> = () => {
+const Home: FunctionComponent = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navigation = [
