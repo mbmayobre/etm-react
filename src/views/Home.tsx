@@ -2,6 +2,7 @@ import React, { FunctionComponent } from "react";
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import PhoneMockup from "../components/PhoneMockup/PhoneMockup";
 
 const Home: FunctionComponent = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -161,6 +162,7 @@ const Home: FunctionComponent = () => {
             </div>
           </div>
         </div>
+        <PhoneMockup />
         <div
           className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
           aria-hidden="true"
