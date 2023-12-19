@@ -127,17 +127,18 @@ const Home: FunctionComponent = () => {
             }}
           />
         </div>
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-          <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-            <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-              Announcing our next round of funding.{" "}
-              <a href="#" className="font-semibold text-indigo-600">
-                <span className="absolute inset-0" aria-hidden="true" />
-                Read more <span aria-hidden="true">&rarr;</span>
-              </a>
-            </div>
-          </div>
-          <div className="text-center">
+        {/* <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56 items-center justify-between"> */}
+        <div className="flex md:flex-row flex-col items-center justify-between py-12 sm:py-24 lg:py-32">
+          {/* <div className="hidden sm:mb-8 sm:flex sm:justify-center">
+              <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                Announcing our next round of funding.{" "}
+                <a href="#" className="font-semibold text-indigo-600">
+                  <span className="absolute inset-0" aria-hidden="true" />
+                  Read more <span aria-hidden="true">&rarr;</span>
+                </a>
+              </div>
+            </div> */}
+          <div className="text-center px-10 sm:px-18 lg:px-32 py-12 sm:py-18 lg:py-24">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
               Data to enrich your online business
             </h1>
@@ -161,8 +162,11 @@ const Home: FunctionComponent = () => {
               </a>
             </div>
           </div>
+          <div className="">
+            <PhoneMockup />
+          </div>
+          {/* </div> */}
         </div>
-        <PhoneMockup />
         <div
           className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
           aria-hidden="true"
