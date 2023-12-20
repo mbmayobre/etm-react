@@ -1,14 +1,24 @@
-import React, { FunctionComponent } from "react";
+import React from "react";
 import PhoneMockup from "../components/PhoneMockup/PhoneMockup";
 import DownloadButtons from "../components/Buttons/DownloadButtons";
 import Navbar from "../components/Navbar/Navbar";
+import Features from "./Sections/Features";
+import MoneyWalletCredit from "../assets/img/Feaures/boba-dollar-bills-and-credit-card-in-wallet.png";
 
-const Home: FunctionComponent = () => {
+const Home: React.FunctionComponent = () => {
   const navigation = [
     { name: "Product", href: "#" },
     { name: "Features", href: "#" },
     { name: "Marketplace", href: "#" },
     { name: "Company", href: "#" },
+  ];
+
+  const features = [
+    { text: "Feature 1", image: MoneyWalletCredit },
+    { text: "Feature 2", image: MoneyWalletCredit },
+    { text: "Feature 3", image: MoneyWalletCredit },
+    { text: "Feature 4", image: MoneyWalletCredit },
+    { text: "Feature 5", image: MoneyWalletCredit },
   ];
 
   return (
@@ -53,8 +63,8 @@ const Home: FunctionComponent = () => {
           <div className="px-10 sm:px-12 lg:px-24">
             <PhoneMockup />
           </div>
-          {/* </div> */}
         </div>
+        <Features features={features} />
         <div
           className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
           aria-hidden="true"
