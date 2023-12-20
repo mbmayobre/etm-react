@@ -1,7 +1,7 @@
 import React from "react";
 import PhoneMockup from "../components/PhoneMockup/PhoneMockup";
 import DownloadButtons from "../components/Buttons/DownloadButtons";
-import Navbar from "../components/Navbar/Navbar";
+import Header from "../components/Header/Header";
 import Features from "./Sections/Features";
 import MoneyWalletCredit from "../assets/img/Feaures/boba-dollar-bills-and-credit-card-in-wallet.png";
 
@@ -14,16 +14,16 @@ const Home: React.FunctionComponent = () => {
   ];
 
   const features = [
-    { text: "Feature 1", image: MoneyWalletCredit },
-    { text: "Feature 2", image: MoneyWalletCredit },
-    { text: "Feature 3", image: MoneyWalletCredit },
-    { text: "Feature 4", image: MoneyWalletCredit },
-    { text: "Feature 5", image: MoneyWalletCredit },
+    { text: "Money Management", image: MoneyWalletCredit },
+    { text: "Green and Clean", image: MoneyWalletCredit },
+    { text: "Reward System", image: MoneyWalletCredit },
+    { text: "Easy to Use", image: MoneyWalletCredit },
+    { text: "Affordable", image: MoneyWalletCredit },
   ];
 
   return (
     <div className="bg-white">
-      <Navbar navigation={navigation} />
+      <Header navigation={navigation} />
       <div className="relative isolate px-6 pt-14 lg:px-8">
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
