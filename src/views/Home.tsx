@@ -14,17 +14,16 @@ const Home: React.FunctionComponent = () => {
   ];
 
   const features = [
-    { text: "Money Management", image: MoneyWalletCredit },
+    { text: "Teaches Financial Literacy", image: MoneyWalletCredit },
     { text: "Green and Clean", image: MoneyWalletCredit },
-    { text: "Reward System", image: MoneyWalletCredit },
-    { text: "Easy to Use", image: MoneyWalletCredit },
-    { text: "Affordable", image: MoneyWalletCredit },
+    { text: "Tangible and Portable", image: MoneyWalletCredit },
+    { text: "Easy to Use and Affordable", image: MoneyWalletCredit },
   ];
 
   return (
     <div className="bg-white">
       <Header navigation={navigation} />
-      <div className="relative isolate px-6 pt-14 lg:px-8">
+      <div className="relative isolate pt-14">
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           aria-hidden="true"
@@ -37,17 +36,7 @@ const Home: React.FunctionComponent = () => {
             }}
           />
         </div>
-        {/* <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56 items-center justify-between"> */}
         <div className="flex md:flex-row flex-col items-center justify-between py-12 sm:py-16 lg:py-24">
-          {/* <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-              <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                Announcing our next round of funding.{" "}
-                <a href="#" className="font-semibold text-indigo-600">
-                  <span className="absolute inset-0" aria-hidden="true" />
-                  Read more <span aria-hidden="true">&rarr;</span>
-                </a>
-              </div>
-            </div> */}
           <div className="text-center px-10 py-12 sm:p-16 md:px-20 lg:px-32 lg:py-24">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl flex flex-wrap justify-center">
               <span>Inspired by Students</span>
@@ -64,7 +53,7 @@ const Home: React.FunctionComponent = () => {
             <PhoneMockup />
           </div>
         </div>
-        <Features features={features} />
+        {/* <Features features={features} /> */}
         <div
           className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
           aria-hidden="true"
