@@ -3,6 +3,7 @@ import PhoneMockup from "../components/PhoneMockup/PhoneMockup";
 import DownloadButtons from "../components/Buttons/DownloadButtons";
 import Header from "../components/Header/Header";
 import Features from "./Sections/Features";
+import Footer from "../components/Footer/Footer";
 import MoneyWalletCredit from "../assets/img/Feaures/boba-dollar-bills-and-credit-card-in-wallet.png";
 
 const Home: React.FunctionComponent = () => {
@@ -24,7 +25,7 @@ const Home: React.FunctionComponent = () => {
     <div className="bg-white">
       <Header navigation={navigation} />
       <div className="relative isolate pt-14">
-        <div
+        {/* <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           aria-hidden="true"
         >
@@ -35,7 +36,7 @@ const Home: React.FunctionComponent = () => {
                 "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
             }}
           />
-        </div>
+        </div> */}
         <div className="flex md:flex-row flex-col items-center justify-between py-12 sm:py-16 lg:py-24">
           <div className="text-center px-10 py-12 sm:p-16 md:px-20 lg:px-32 lg:py-24">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl flex flex-wrap justify-center">
@@ -54,8 +55,8 @@ const Home: React.FunctionComponent = () => {
           </div>
         </div>
         {/* <Features features={features} /> */}
-        <div
-          className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+        {/* <div
+          className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu blur-3xl sm:top-[calc(100%-37rem)]"
           aria-hidden="true"
         >
           <div
@@ -65,8 +66,9 @@ const Home: React.FunctionComponent = () => {
                 "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
             }}
           />
-        </div>
+        </div> */}
       </div>
+      <Footer />
     </div>
   );
 };
