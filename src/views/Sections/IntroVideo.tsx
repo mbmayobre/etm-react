@@ -8,7 +8,7 @@ const IntroVideo: React.FunctionComponent<IntroVideoProps> = ({ url }) => {
   return (
     <section className="py-14 px-5">
       <h2 className="text-center text-2xl font-bold mb-5">
-        Teach Students How to Use the App
+        How to Use the ETM App
       </h2>
       <div className="h-56 sm:h-72 md:h-96 max-w-3xl mx-auto">
         <iframe

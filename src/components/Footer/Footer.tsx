@@ -17,12 +17,12 @@ const Footer: React.FunctionComponent = () => {
           </div>
         </div> */}
         <div className="w-10/12 grid gap-y-3">
-          <h2 className="text-center text-xl">Contact Us</h2>
+          <h2 className="text-center text-xl font-bold">Contact Us</h2>
           <div>
             {/* <label htmlFor="first-name" className="block text-sm font-medium leading-6 text-gray-900">
               First name
             </label> */}
-            <div className="mt-2">
+            <div className="my-5 font-medium">
               <p>571-344-1978</p>
               <p>Educational Classroom Systems</p>
               <p>525 Harrison Circle Locust Grove, VA 22508</p>
@@ -88,7 +88,7 @@ const Footer: React.FunctionComponent = () => {
           </button>
         </div>
         <div className="w-10/12 grid gap-y-3 mt-6 md:mt-0">
-          <h2 className="text-center text-xl">Follow Us</h2>
+          <h2 className="text-center text-xl font-bold">Follow Us</h2>
           <div className="flex space-x-4 justify-center">
             <FaFacebook size={48} />
             <FaPinterest size={48} />

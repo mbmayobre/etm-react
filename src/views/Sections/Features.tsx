@@ -20,7 +20,9 @@ const Features: React.FunctionComponent<FeaturesProps> = ({ features }) => {
                   className="bg-green-300 rounded-full"
                   src={feature.image}
                 />
-                <h1 className="text-xl text-center mt-3">{feature.text}</h1>
+                <h1 className="text-xl text-center font-medium mt-3">
+                  {feature.text}
+                </h1>
               </div>
             </div>
           ))}

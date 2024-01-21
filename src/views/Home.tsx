@@ -11,10 +11,11 @@ import Tangible from "../assets/img/Features/tangible.jpg";
 
 const Home: React.FunctionComponent = () => {
   const navigation = [
-    { name: "Product", href: "#" },
-    { name: "Features", href: "#" },
-    { name: "Marketplace", href: "#" },
-    { name: "Company", href: "#" },
+    { name: "Home", href: "#" },
+    { name: "Support", href: "#" },
+    { name: "Shop", href: "#" },
+    { name: "Blog", href: "#" },
+    { name: "Contact", href: "#" },
   ];
 
   const features = [

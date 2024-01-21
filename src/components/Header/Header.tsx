@@ -1,6 +1,7 @@
 import React, { FunctionComponent, useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import ETMlogo from "../../assets/img/ETMlogo.png";
 
 type NavbarProps = {
   navigation: {
@@ -21,11 +22,7 @@ const Navbar: FunctionComponent<NavbarProps> = ({ navigation }) => {
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <img
-              className="h-8 w-auto"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-              alt=""
-            />
+            <img className="h-12 w-auto" src={ETMlogo} alt="" />
           </a>
         </div>
         <div className="flex lg:hidden">
