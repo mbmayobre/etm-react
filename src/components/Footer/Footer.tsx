@@ -7,13 +7,26 @@ import { FaPinterest } from "react-icons/fa";
 const Footer: FunctionComponent = () => {
   return (
     <footer className="bg-gray-300">
-      <div className="grid justify-items-center grid-cols-1 md:grid-cols-2 h-auto py-3">
+      <div className="grid justify-items-center grid-cols-1 md:grid-cols-2 max-w-5xl h-auto py-3 mx-auto">
+        {/* <div className="w-10/12 grid gap-y-3">
+          <h2>Contact Info</h2>
+          <div className="mt-2">
+            <p>571-344-1978</p>
+            <p>Educational Classroom Systems</p>
+            <p>525 Harrison Circle Locust Grove, VA 22508</p>
+          </div>
+        </div> */}
         <div className="w-10/12 grid gap-y-3">
           <h2 className="text-center text-xl">Contact Us</h2>
           <div>
             {/* <label htmlFor="first-name" className="block text-sm font-medium leading-6 text-gray-900">
               First name
             </label> */}
+            <div className="mt-2">
+              <p>571-344-1978</p>
+              <p>Educational Classroom Systems</p>
+              <p>525 Harrison Circle Locust Grove, VA 22508</p>
+            </div>
             <div className="mt-2">
               <input
                 type="text"
