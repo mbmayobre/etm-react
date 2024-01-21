@@ -5,6 +5,9 @@ import Header from "../components/Header/Header";
 import Features from "./Sections/Features";
 import Footer from "../components/Footer/Footer";
 import MoneyWalletCredit from "../assets/img/Feaures/boba-dollar-bills-and-credit-card-in-wallet.png";
+import EcoFriendly from "../assets/img/Features/ecofriendly.jpg";
+import MoneyMangement from "../assets/img/Features/moneyManagement2.jpg";
+import Tangible from "../assets/img/Features/tangible.jpg";
 
 const Home: React.FunctionComponent = () => {
   const navigation = [
@@ -15,10 +18,10 @@ const Home: React.FunctionComponent = () => {
   ];
 
   const features = [
-    { text: "Teaches Financial Literacy", image: MoneyWalletCredit },
-    { text: "Green and Clean", image: MoneyWalletCredit },
-    { text: "Tangible and Portable", image: MoneyWalletCredit },
-    { text: "Easy to Use and Affordable", image: MoneyWalletCredit },
+    { text: "Teaches Financial Literacy", image: MoneyMangement },
+    { text: "Green and Clean", image: EcoFriendly },
+    { text: "Tangible and Portable", image: Tangible },
+    // { text: "Easy to Use and Affordable", image: MoneyWalletCredit },
   ];
 
   return (
@@ -54,7 +57,7 @@ const Home: React.FunctionComponent = () => {
             <PhoneMockup />
           </div>
         </div>
-        {/* <Features features={features} /> */}
+        <Features features={features} />
         {/* <div
           className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu blur-3xl sm:top-[calc(100%-37rem)]"
           aria-hidden="true"
