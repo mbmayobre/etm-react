@@ -10,12 +10,12 @@ const IntroVideo: React.FunctionComponent<IntroVideoProps> = ({ url }) => {
       <h2 className="text-center text-2xl font-bold mb-5">
         How to Use the ETM App
       </h2>
-      <div className="h-56 sm:h-72 md:h-96 max-w-3xl mx-auto">
+      <div className="h-56 sm:h-72 md:h-96 max-w-3xl mx-auto aspect-video">
         <iframe
           className="w-full h-full"
           src={url}
           title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
       </div>
