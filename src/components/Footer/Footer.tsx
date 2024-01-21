@@ -1,10 +1,10 @@
-import React, { FunctionComponent } from "react";
+import React from "react";
 import { FaFacebook } from "react-icons/fa";
 import { FaPinterest } from "react-icons/fa";
 
 // type FooterProps = {};
 
-const Footer: FunctionComponent = () => {
+const Footer: React.FunctionComponent = () => {
   return (
     <footer className="bg-gray-300">
       <div className="grid justify-items-center grid-cols-1 md:grid-cols-2 max-w-5xl h-auto py-3 mx-auto">

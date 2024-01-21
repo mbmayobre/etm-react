@@ -11,10 +11,10 @@ type FeaturesProps = {
 const Features: React.FunctionComponent<FeaturesProps> = ({ features }) => {
   return (
     <section>
-      <div className="bg-gray-300 content-center">
-        <div className="grid grid-cols-1 md:grid-cols-3 justify-items-center max-w-5xl mx-auto py-5">
+      <div className="bg-gray-300 content-center py-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-y-5 justify-items-center max-w-5xl mx-auto py-5">
           {features.map((feature, idx) => (
-            <div key={idx} className="justify-self-center my-5 w-3/6 md:w-4/5">
+            <div key={idx} className="justify-self-center mb-5 w-3/6 md:w-4/5">
               <div className="mx-3 rounded h-fit">
                 <img
                   className="bg-green-300 rounded-full"

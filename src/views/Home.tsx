@@ -4,7 +4,7 @@ import DownloadButtons from "../components/Buttons/DownloadButtons";
 import Header from "../components/Header/Header";
 import Features from "./Sections/Features";
 import Footer from "../components/Footer/Footer";
-import MoneyWalletCredit from "../assets/img/Feaures/boba-dollar-bills-and-credit-card-in-wallet.png";
+import IntroVideo from "./Sections/IntroVideo";
 import EcoFriendly from "../assets/img/Features/ecofriendly.jpg";
 import MoneyMangement from "../assets/img/Features/moneyManagement2.jpg";
 import Tangible from "../assets/img/Features/tangible.jpg";
@@ -58,6 +58,7 @@ const Home: React.FunctionComponent = () => {
           </div>
         </div>
         <Features features={features} />
+        <IntroVideo url="https://www.youtube.com/embed/m3xA2iB3NLk?si=mMBnP3Dut_JkuQuz" />
         {/* <div
           className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu blur-3xl sm:top-[calc(100%-37rem)]"
           aria-hidden="true"
